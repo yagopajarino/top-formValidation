@@ -9,14 +9,13 @@
 <body>
     <main>
     <h1>Form validation</h1>
-    <div id="formContainer">
-        <label for="">Email<input type="text"></label>
-        <label for="">Zip Code<input type="text"></label>
-        <label for="">Country<input type="text"></label>
-        <label for="">Zip code<input type="text"></label>
-        <label for="">Password<input type="text"></label>
-        <label for="">Repeat password<input type="text"></label>
-    </div>
+    <form id="formContainer">
+        <label for="">Email<input type="text"><span></span></label>
+        <label for="">Zip Code<input type="text"><span></span></label>
+        <label for="">Country<select id="countrySelector"><option selected disabled>Select country</option></select><span></span></label>
+        <label for="">Password<input type="password"><span></span></label>
+        <label for="">Repeat password<input type="password"><span></span></label>
+    </form>
     <button>Submit</button>
 </main>
 </body>
