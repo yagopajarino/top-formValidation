@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import './style.css';
 
 const body = document.querySelector('body');
