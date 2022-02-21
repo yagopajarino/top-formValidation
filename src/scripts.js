@@ -1,5 +1,6 @@
 /* eslint-disable eqeqeq */
 import './style.css';
+import './icon.png';
 
 const body = document.querySelector('body');
 const Country = require('country-list');
